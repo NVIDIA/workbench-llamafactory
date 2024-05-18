@@ -1,7 +1,7 @@
 specVersion: v2
 meta:
-  name: llamafactor1
-  image: project-llamafactor1
+  name: llamafactory
+  image: project-llamafactory
   description: ""
   labels: []
   createdOn: "2024-04-17T05:00:53Z"
