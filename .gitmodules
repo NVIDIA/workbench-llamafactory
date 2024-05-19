@@ -1,0 +1,4 @@
+[submodule "LLaMA-Factory"]
+    path = llamafactory
+    url = https://github.com/hiyouga/LLaMA-Factory.git
+    branch = v0.7.0

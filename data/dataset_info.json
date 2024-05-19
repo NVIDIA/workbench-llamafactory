@@ -1,12 +1,3 @@
-{
-  "test": {
-    "file_name": "test.json",
-    "formatting": "alpaca",
-     "columns": {
-      "prompt": "question",
-      "response": "response",
-      "system": "system_prompt"
-    }
-  },
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7430bf7570170bc7f2ce85d6348160a2703842cde7cf113bb04c2dbf2dbb3e11
+size 194
