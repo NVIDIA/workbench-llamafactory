@@ -23,7 +23,7 @@ environment:
   base:
     registry: nvcr.io
     image: nvidia/ai-workbench/python-cuda122:1.0.3
-    build_timestamp: "20231121135814"
+    build_timestamp: "20231214221614"
     name: Python with CUDA 12.2
     supported_architectures: []
     cuda_version: "12.2"
