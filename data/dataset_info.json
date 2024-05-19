@@ -1,0 +1,12 @@
+{
+  "test": {
+    "file_name": "test.json",
+    "formatting": "alpaca",
+     "columns": {
+      "prompt": "question",
+      "response": "response",
+      "system": "system_prompt"
+    }
+  },
+
+}
