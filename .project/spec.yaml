@@ -1,6 +1,6 @@
 specVersion: v2
 meta:
-  name: llamafactory
+  name: wb-llamafactory
   image: project-llamafactory
   description: ""
   labels: []
