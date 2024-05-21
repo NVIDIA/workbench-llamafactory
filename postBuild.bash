@@ -11,3 +11,4 @@ git clone -b v0.7.0 https://github.com/hiyouga/LLaMA-Factory.git
 cd LLaMA-Factory
 $HOME/llama-factory-env/bin/pip install -e .[metrics]
 $HOME/llama-factory-env/bin/pip install bitsandbytes>=0.43.0
+pip install "nvidia-modelopt[all]~=0.11.0" --extra-index-url https://pypi.nvidia.com
