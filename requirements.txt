@@ -3,4 +3,3 @@ torch
 transformers
 peft 
 datasets
-nvidia-modelopt[all]~=0.11.0 --extra-index-url https://pypi.nvidia.com
