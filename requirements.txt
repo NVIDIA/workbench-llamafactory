@@ -1,5 +1,5 @@
-jupyterlab
+jupyterlab>3.0
 torch
 transformers
-peft 
+peft
 datasets
