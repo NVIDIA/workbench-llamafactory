@@ -108,10 +108,14 @@ execution:
       requested: 1
     sharedMemoryMB: 1024
   secrets:
-  - variable: HUGGING_FACE_HUB_TOKEN
-    description: ""
+  - variable: HF_TOKEN
+    description: User Access Token to authenticate to Hugging Face Hub
   mounts:
   - type: project
     target: /project/
     description: Project directory
     options: rw
+  - type: volume
+    target: /mnt/huggingface/
+    description: Hugging Face Cache Dir
+    options: ""
