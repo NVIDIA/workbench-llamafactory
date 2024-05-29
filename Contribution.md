@@ -72,6 +72,8 @@ git push -u origin <local-branch>:<remote-branch>
   ```
   Signed-off-by: Your Name <your@email.com>
   ```
+  
+#### The full text of the DCO
 
 ``` The full text of the DCO
 Developer Certificate of Origin
