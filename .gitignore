@@ -2,6 +2,7 @@
 .project/*
 !.project/spec.yaml
 !.project/configpacks
+cache/*
 
 # General ignores
 .DS_Store

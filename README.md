@@ -43,6 +43,7 @@ To initiate the fine-tuning process, it's necessary to start the Llamafactory Ap
     - **8-bit or 4-bit**: Apply quantization for QLoRA fine-tuning, reducing precision for enhanced efficiency.resource consumption.
 
 We recommend using QLoRA PEFT technique on RTX PCs. To do fine-tuning using Llamafactory app, set custom configurations.
+- Ensure you obtain access approval for the model you will be using from Hugging Face.
 - Choose Model from Dropdown
 - Choose Dataset from Dropdown
     - For using the **custom dataset**
@@ -77,3 +78,6 @@ Once the TensorRT-LLM compatible checkpoint is generated, TensorRT-LLM can be us
 * [Install on Windows](https://nvidia.github.io/TensorRT-LLM/installation/windows.html)
 * [Build an engine](https://nvidia.github.io/TensorRT-LLM/quick-start-guide.html#compile-the-model-into-a-tensorrt-engine)
 * [Run Inference](https://nvidia.github.io/TensorRT-LLM/quick-start-guide.html#run-the-model)
+
+## Contributing
+We welcome contributions from the community! If you'd like to contribute to this project, please follow [Contribution Guidlines](Contribution.md)
