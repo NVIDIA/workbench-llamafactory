@@ -1,6 +1,12 @@
 # RTX AI toolkit - Model Finetuning, quantization and inference
 
-This is an [NVIDIA AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/) example project that demonstrates an end-to-end model development workflow.
+
+
+This is an [NVIDIA AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/) project to deploy [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
+
+Please follow the tutorial to use this project at [https://github.com/NVIDIA/RTX-AI-Toolkit](https://github.com/NVIDIA/RTX-AI-Toolkit/-/blob/main/tutorial-llama3-finetune.md?ref_type=heads).
+
+
 
 ## Features
 
@@ -78,6 +84,3 @@ Once the TensorRT-LLM compatible checkpoint is generated, TensorRT-LLM can be us
 * [Install on Windows](https://nvidia.github.io/TensorRT-LLM/installation/windows.html)
 * [Build an engine](https://nvidia.github.io/TensorRT-LLM/quick-start-guide.html#compile-the-model-into-a-tensorrt-engine)
 * [Run Inference](https://nvidia.github.io/TensorRT-LLM/quick-start-guide.html#run-the-model)
-
-## Contributing
-We welcome contributions from the community! If you'd like to contribute to this project, please follow [Contribution Guidlines](Contribution.md)
