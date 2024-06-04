@@ -4,7 +4,7 @@
 
 This is an [NVIDIA AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/) project to deploy [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
 
-Please follow the tutorial to use this project at [https://github.com/NVIDIA/RTX-AI-Toolkit](https://github.com/NVIDIA/RTX-AI-Toolkit/-/blob/main/tutorial-llama3-finetune.md?ref_type=heads).
+## Please follow the RTX AI Toolkit tutorial to use this project at [https://github.com/NVIDIA/RTX-AI-Toolkit](https://github.com/NVIDIA/RTX-AI-Toolkit/-/blob/main/tutorial-llama3-finetune.md?ref_type=heads).
 
 
 
