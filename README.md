@@ -11,6 +11,8 @@ This is an [NVIDIA AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/s
 
 Minimum recommended Workbench ver: 0.50.16
 
+Docker Desktop ver. 4.31+
+
 ## Features
 
 - Fine-tune an LLM using Llama factory.
