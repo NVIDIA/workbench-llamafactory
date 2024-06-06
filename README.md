@@ -9,6 +9,8 @@ This is an [NVIDIA AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/s
 
 <img src="lm-gui.png" width="700">
 
+Minimum recommended Workbench ver: 0.50.16
+
 ## Features
 
 - Fine-tune an LLM using Llama factory.
