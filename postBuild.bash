@@ -19,6 +19,7 @@
 # Note: This file may be removed if you don't need to use it
 set -e
 cd ~
+sudo apt update
 sudo apt install -y python3.10-venv
 python3 -m venv llama-factory-env
 git clone -b v0.7.0 https://github.com/hiyouga/LLaMA-Factory.git
