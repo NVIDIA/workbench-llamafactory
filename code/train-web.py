@@ -5,7 +5,7 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-# http://www.apache.org/licenses/LICENSE-2.0
+#     http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -13,13 +13,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from llmtuner import create_ui
 import os
 
+from llamafactory.webui.interface import create_ui
+
+
 def main():
+    gradio_share = os.environ.get("GRADIO_SHARE", "0").lower() in ["true", "1"]
     prefix = os.environ["PROXY_PREFIX"]
-    print(f"PROXY_PREFIX:{prefix}")
-    create_ui().queue().launch(server_name="0.0.0.0", server_port=None, share=False, inbrowser=True, root_path=prefix)
+    server_name = os.environ.get("GRADIO_SERVER_NAME", "0.0.0.0")
+    create_ui().queue().launch(share=gradio_share, server_port=None, inbrowser=True, root_path=prefix, server_name=server_name)
 
 
 if __name__ == "__main__":
