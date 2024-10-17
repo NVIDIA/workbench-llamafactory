@@ -26,6 +26,6 @@ git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
 cd LLaMA-Factory
 $HOME/llama-factory-env/bin/pip install -e ".[metrics]"
 $HOME/llama-factory-env/bin/pip install bitsandbytes>=0.43.0
-$HOME/llama-factory-env/bin/pip install vllm>=0.4.3
+#$HOME/llama-factory-env/bin/pip install vllm>=0.4.3
 pip install "nvidia-modelopt[all]~=0.11.0" --extra-index-url https://pypi.nvidia.com
-$HOME/llama-factory-env/bin/pip install "unsloth[cu121-torch240] @ git+https://github.com/unslothai/unsloth.git"
+#$HOME/llama-factory-env/bin/pip install "unsloth[cu121-torch240] @ git+https://github.com/unslothai/unsloth.git"
