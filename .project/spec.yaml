@@ -1,5 +1,5 @@
 specVersion: v2
-specMinorVersion: 1
+specMinorVersion: 2
 meta:
   name: workbench-llamafactory
   image: project-llamafactory-wb
@@ -44,7 +44,7 @@ environment:
       stop_command: jupyter lab stop 8888
       user_msg: ""
       logfile_path: ""
-      timeout_seconds: 0
+      timeout_seconds: 60
       icon_url: ""
       webapp_options:
         autolaunch: true
@@ -89,13 +89,13 @@ execution:
   - name: llamafactory
     type: custom
     class: webapp
-    start_command: cd $HOME/LLaMA-Factory && cp /project/code/train-web.py $HOME/LLaMA-Factory/src/train-web.py
-      && PROXY_PREFIX=$PROXY_PREFIX $HOME/llama-factory-env/bin/python3 $HOME/LLaMA-Factory/src/train-web.py
+    start_command: cd $HOME/LLaMA-Factory && cp /project/code/train-web.py src/train-web.py
+      &&  . /project/code/setup-and-run.sh
     health_check_command: curl -f "http://localhost:7860/"
     stop_command: pkill -f "$HOME/llama-factory-env/bin/python3 $HOME/LLaMA-Factory/src/train-web.py"
     user_msg: ""
     logfile_path: ""
-    timeout_seconds: 0
+    timeout_seconds: 60
     icon_url: ""
     webapp_options:
       autolaunch: true
